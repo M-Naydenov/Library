@@ -38,7 +38,7 @@ test('Verify "All Books" link is visible after user login', async ({ page }) => 
 
 test('Login with valid credentials', async ({ page }) => {
   await page.goto('http://localhost:3000/login');
-  // test comment
+  // test comment for git
   await page.fill('input[name="email"]', 'peter@abv.bg');
   await page.fill('input[name="password"]', '123456');
 
